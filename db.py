@@ -13,7 +13,7 @@ def init_app():
     # 禁用 Flask-SQLAlchemy 事件系统，不跟踪对象的修改状态
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-    app.secret_key = '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'
+    app.secret_key = 'ysw'
 
     # 将上面创建的 app 绑定到 SQLAlchemy db 对象
     db.init_app(app)
